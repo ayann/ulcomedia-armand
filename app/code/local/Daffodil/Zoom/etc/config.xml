@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Daffodil_Zoom>
+            <version>0.1.0</version>
+        </Daffodil_Zoom>
+    </modules>
+    <global>
+        <helpers>
+            <zoom>
+                <class>Daffodil_Zoom_Helper</class>
+            </zoom>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <zoom>
+                <use>standard</use>
+                <args>
+                    <module>Daffodil_Zoom</module>
+                    <frontName>zoom</frontName>
+                </args>
+            </zoom>
+        </routers>
+        <layout>
+            <updates>
+                <zoom>
+                    <file>daffzoom.xml</file>
+                </zoom>
+            </updates>
+        </layout>
+    </frontend>
+
+<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <zoom>
+                                            <title>Store Is </title>
+                                        </zoom>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+ <default>
+        
+            <zoom>
+                <all_settings>
+		        <enabled>1</enabled>
+		        <lens_width>200</lens_width>
+		        <lens_border_color>#888</lens_border_color>
+		        <lens_border_size>2</lens_border_size>
+                </all_settings>
+            </zoom>
+      
+ </default>
+</config>

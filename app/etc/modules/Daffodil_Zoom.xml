@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+ /**
+ * Daff Zoom
+
+-->
+<config>
+    <modules>
+        <Daffodil_Zoom>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Daffodil_Zoom>
+    </modules>
+</config>

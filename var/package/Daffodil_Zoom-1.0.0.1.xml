@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Daffodil_Zoom</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Zoom product image</summary>
+    <description>This extension zoom product image</description>
+    <notes>First release</notes>
+    <authors><author><name>Daffodil Software</name><user>daffodilsw</user><email>ashish.mittal@daffodilsw.com</email></author></authors>
+    <date>2012-12-31</date>
+    <time>11:39:30</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Daffodil_Zoom.xml" hash="fc97175459ac6e037fb90a306f79cfcb"/></dir></target><target name="magelocal"><dir name="Daffodil"><dir name="Zoom"><dir name="Helper"><file name="Data.php" hash="4af388bb89e32e02e485fc2db627dd61"/><file name="Data.php~" hash="36c0e89dfb8fbd98ff96b6181408d032"/></dir><dir name="etc"><file name="config.xml" hash="11e6d1a26e8190aed65e03f46c23dc8f"/><file name="config.xml~" hash="11e6d1a26e8190aed65e03f46c23dc8f"/><file name="system.xml" hash="7480e28f07f4eea8afd1be7718f9f5ea"/><file name="system.xml~" hash="d28e5acb0c9c2af6b2253f3fb11d9221"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="zoom"><file name="media.phtml" hash="043c01d00077012b6b4ffbfb3ba55caf"/><file name="media.phtml~" hash="01bf771c649604681f5d548aa05647f1"/></dir></dir><dir name="layout"><file name="daffzoom.xml" hash="a22255454d7e7fe4f58126629cdb1681"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="daffzoom"><file name="jquery.imageLens.js" hash="1b2fdae100b07f2075966354ac5da2e9"/><file name="jquery.imageLens.js~" hash="1b2fdae100b07f2075966354ac5da2e9"/><file name="jquery.js" hash="747c097f5002bebdaa66744661dc2d8b"/><file name="jquery.js~" hash="747c097f5002bebdaa66744661dc2d8b"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
